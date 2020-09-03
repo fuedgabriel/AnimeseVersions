@@ -1,0 +1,51 @@
+name: animese
+description: Aplicativo de anime
+version: 2.2.7+7
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.10  #dados no celular
+  http: ^0.12.1 #Rquisição
+  video_box: ^0.12.0 #Player de vídeo
+  wakelock: ^0.1.4+2 #Lock wake
+  firebase_analytics: ^5.0.11 #Analise do aplicativo
+  firebase_admob: ^0.9.3+2 # Propaganda
+  url_launcher: ^5.5.2
+  dio: ^3.0.10
+  path_provider: ^1.6.11
+  permission_handler: ^5.0.1+1
+  fluttertoast: ^7.0.2
+  #Desing
+  carousel_slider: ^2.2.1
+  cached_network_image: ^2.3.1 # Loading image
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  assets:
+    - assets/logo/NameRe.png
+    - assets/logo/Name.png
+    - assets/logo/NameIcon.png
+    - assets/logo/Icon.png
+    - assets/imgs/loading.gif
+
+
+  uses-material-design: true
+
